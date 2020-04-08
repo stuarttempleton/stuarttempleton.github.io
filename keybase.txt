@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/stuarttempleton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.stuarttempleton.com
+  * I am stuarttempleton (https://keybase.io/stuarttempleton) on keybase.
+  * I have a public key with fingerprint 244A 41A1 CD2D C2ED 596E  0BB3 ECB6 F6F5 60BC 45B7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e8807c810d55ca04e3e968f07bdec9236aef9edc02c71ad422bd1f1b0ba648470a",
+            "fingerprint": "244a41a1cd2dc2ed596e0bb3ecb6f6f560bc45b7",
+            "host": "keybase.io",
+            "key_id": "ecb6f6f560bc45b7",
+            "kid": "0101e8807c810d55ca04e3e968f07bdec9236aef9edc02c71ad422bd1f1b0ba648470a",
+            "uid": "0a57c5212caa0f4ae38a7517c14f2d19",
+            "username": "stuarttempleton"
+        },
+        "service": {
+            "hostname": "www.stuarttempleton.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494971408,
+    "expire_in": 157680000,
+    "prev": "81de8b1933fd88acf1f8111520be379fbc3e941a4b63e9feb7237c10288169c8",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMItAnicrVJJTBRBFB1AkEVkjPuCwT4ZMyFVPb1UT4yoKPGgclCMijpUVVdDK0yP
+PT2DOIKBoCAeVGKiB8NJQWOURKOZmIhI1GCAgwaBiwpC8EKiFzQuRKtRL8ajdant
+vffff1VPslM8mUmTW9V9d1KG25L6Hl+PevatdLxxgVh6jRCIC0fY7MQqdRZxgkdM
+XQgIAALIEAIqRRDoskwxkJifaQoygEp0RjXRr2BmaEynQKQqxLokikSHBiSAYEVC
+kgqw4BMMM1TO7LBthhwuK0oSliCGVBd1KjJd1hQGCPEzShRDMWQFECrJROXECivi
+Mrg5giMs37T4Gd8EZ+39A/+ffUd/yWFZpbIIRYoxMCTM/AirMlQplAxRh5oLjDA7
+hKsYR0ecKLYdh1WFK5ljhYRan8AvYyZlbr5uQ7+B1dXV+X+B86lVxdXCtuVY1Krk
+oArHCQdcDacmPEtiJPhbLkjMkM6D5YQYsyMmrxWAHEkd09WHkiZpKpQA8gnsWNi0
+WdB0EbKqIMCHW4bFuCSCOkMEan6/oSOEqQENBCGURUCYX9UMQnl0/L0kovCFwYgq
++nnvQEQIKhpFgtvg0ZAlBGRuE5e7GZjlIexEbSbU9nQfmONJyvSkpSa7H86TmeH9
+8w3LJub+0LNm4l120ZtPwRfB0fmN7a0b3yojHx9m3K+bSZo/mtyyJuXVcGSs8/K6
+tlvvuxdnNY5/eVAqlpQO9Z5t2nZ/S/ueD+sL0hINk/GntZtbBrsWTqbvzd6+fHrX
+M+eu1ynydU0tiNaFHt+4VDJ1cDjvfO60d8/xSZo4uOBRw+nVMWTnHU6UD5xKf3Kz
+b9wT298gLJU6lzW9a17UiXavzVmRXv9j6soBtWDTreFDO8/0BeYlPo0UruopRv0t
+4GrOhvjD1qHA4MXK7jup3zo6lnzv9Q4UP3+d6719IYz6fcsSkeaJHd37af29nSOl
+5oeTH6fG+pLPfe3J/NxRduLa1peLVxUmhup+ArDoSpo=
+=IjN6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stuarttempleton
+
+==================================================================
+

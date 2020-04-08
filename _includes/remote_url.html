@@ -1,0 +1,8 @@
+{%- if page.remote_url -%}
+{% if page.remote_url_action %}
+{% assign action_text = page.remote_url_action %}
+{% else %}
+{% assign action_text = "Download" %}
+{% endif %}
+<center><a href="{{page.remote_url}}" class="download">{{ action_text }}</a></center>
+{%- endif -%}

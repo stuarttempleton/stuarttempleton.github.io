@@ -1,0 +1,38 @@
+---
+layout: post
+---
+<table style="font-size:0.8em;">
+  {%- if page.role -%}
+  <tr>
+      <td style="text-align:right"> <b>Role</b> </td>
+      <td>{{page.role}}</td>
+  </tr>
+  {%- endif -%}
+  {%- if page.created_at -%}
+  <tr>
+      <td style="text-align:right"> <b>Studio</b> </td>
+      <td>{{page.created_at}}</td>
+  </tr>
+  {%- endif -%}
+  {%- if page.contributors -%}
+  <tr>
+      <td style="text-align:right"> <b>Contributors</b> </td>
+      <td>{{page.contributors}}</td>
+  </tr>
+  {%- endif -%}
+  {%- if page.platform -%}
+  <tr>
+      <td style="text-align:right"> <b>Platforms</b> </td>
+      <td>{{page.platform}}</td>
+  </tr>
+  {%- endif -%}
+  {%- if page.status -%}
+  <tr>
+      <td style="text-align:right"> <b>Status</b> </td>
+      <td>{{page.status}}</td>
+  </tr>
+  {%- endif -%}
+</table>
+
+{%- include remote_url.html -%}
+{{ content }}
