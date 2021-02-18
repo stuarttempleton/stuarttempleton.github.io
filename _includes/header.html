@@ -1,9 +1,8 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper2">
+  <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <!--<a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -28,9 +27,7 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-          <a class="page-link" href="/Stuart Templeton Resume 2020.pdf">Resume</a>
-          <a class="page-link" href="https://www.linkedin.com/in/stuart-templeton-1b961133/">LinkedIn</a>
-          <a class="page-link" href="mailto:stuart@stuarttempleton.com">Contact</a>
+
           
         </div>
       </nav>
@@ -38,11 +35,6 @@
   </div>
 
   {%- if page.skip_name_in_title -%}
-  <div class="face">
-    <img src="/assets/images/face.jpeg" class="face-face" alt="A picture of me." title="A picture of me."/>
-    <div class="face-title"> {{ site.title | escape }}</div>
-    <div class="face-subtitle"> {{ site.description | escape }}</div>
-  </div>
   {%- else -%}
   {%- endif -%}
 </header>

@@ -2,13 +2,14 @@
 layout: post
 title:  "Looping Music During Game Play in Unity3D"
 date:   2019-04-08 11:17:49 -0700
-categories: Unity3d Gamedev audiosource blog
+categories: blog
+excerpt_separator: <!--more-->
 ---
 
 Our game needed an audio system that allowed us to take music loops and samples and weave them in and out as the action and intensity increased during game play. The actual need itself wasn't huge. We had a series of "acidized" drum loops and we just wanted to be able to make them respond to player movement and activity. When the player was idle, we wanted to pull back to the mellow loops and when the action increases, well, so should the intensity of the audio.
 
 We wanted to take advantage of Unity3d's built in audio system. It's fairly robust and simple, and provides a scheduler we can easily access in code. Perfect. Here's how I did it.
-
+<!--more-->
 ### Two Turn-Tables (and an audio clip?)
 
 The foundation of this technique is to mimic a rudimentary DJ. We have two samples that need to play. We don't want to eat too much time swapping clips in and out, so just like a DJ, we use two separate sources. We also have to beat match like a DJ would. So we track what we intend to use as the BPM. Our audio is all 120bpm, so we set it at that. We also track our bar. Ours is 16. We have some basic stuff to help keep track of what we're currently playing and to set a floor for the lowest clip we're willing to play.

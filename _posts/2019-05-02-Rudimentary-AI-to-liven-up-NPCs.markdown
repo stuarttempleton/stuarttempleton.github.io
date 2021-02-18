@@ -2,11 +2,12 @@
 layout: post
 title:  "Using Rudimentary AI to Liven Up NPCs"
 date:   2019-05-02 11:17:49 -0700
-categories: Unity3d NPCs AI blog
+categories: blog
+excerpt_separator: <!--more-->
 ---
 
 If you've ever followed random NPCs around as they walk their paths, you've probably seen how quickly the illusion falls apart. Most NPCs walk looping paths, rarely doing anything more than creating the illusion of a busy and bustling street. But what if you wanted the NPCs to have more character? What if you wanted to give them a sense of purpose? That's what I set out to do after some interesting feedback from our playtest community. 
-
+<!--more-->
 After getting that feedback, I quickly realized my mistake: The NPCs were walking around the world and they weren't *in* the world. I wanted them to be a part of the world around them. I wanted them to use the bus stops. I wanted them to sit on the park benches. Use our Data Terms. Say hello to each other. Pet dogs. Check their phone. Read posters and flyers. 
 
 So, how do we solve it? How do we create organic NPC behavior that kind of works? To start, I created an extremely simple framework that allows me to define needs and take action to meet needs. I call it Mazlow.

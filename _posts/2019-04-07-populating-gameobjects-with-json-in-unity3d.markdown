@@ -2,11 +2,12 @@
 layout: post
 title:  "Populating Unity3D GameObjects with JSON"
 date:   2019-04-07 11:17:49 -0700
-categories: Unity3d JSON blog
+categories: blog
+excerpt_separator: <!--more-->
 ---
 
 My game Vegas Prime Retrograde is built on the idea that we reward the player for exploration with lore and other discoverable things strewn throughout the world. It's a fairly simple task to implement in the game, but managing the ever-growing database of lore was a bit of a chore. I needed something that would let me store a small database of information. Nice-to-haves would be the ability to update that database with information about what the player has encountered. As it turns out, Unity3D has a lot of built in tools for loading external data as JSON, so we'll use those. This is how I did it.
-
+<!--more-->
 ### The Data Structures
 
 The first thing I needed was something that defined the actual data structure itself. For my use, I needed a few classes: discovery, discoverycategory, discoveryindex

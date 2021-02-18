@@ -2,17 +2,17 @@
 layout: portfolio_item
 title:  "Vegas Prime Retrograde"
 date:   2019-04-06 11:17:49 -0700
-categories: download highlight
+categories: download game
 remote_url: http://bit.ly/VPRDEMOBUILDS
 image: /assets/images/downloads/vpr_title.jpg
 contributors: "Stuart Templeton, Thomas Hurtt"
 created_at: "Open Form Games"
 role: "Creative Director, Lead Designer, Animator, Developer"
 platform: "Wii U, Xbox One, Windows, macOS, Linux"
+excerpt_separator: <!--more-->
 ---
-
 Vegas Prime Retrograde is a story-driven adventure game set in the fictional metropolis Vegas Prime. Play as COMs Operative Clara as you hack your way through the futuristic streets of Vegas Prime. 
-
+<!--more-->
 This alpha contains the first level of play, the Stasis Bay.
 
 ### Technologies and Challenges

@@ -2,17 +2,17 @@
 layout: portfolio_item
 title:  "Xamalga"
 date:   2014-07-01 11:17:49 -0700
-categories: download highlight
+categories: download game
 remote_url: http://www.xamalga.com/Xamalga_v2.apk
 image: /assets/images/downloads/xamalga_v2.jpg
 contributors: "Stuart Templeton, Thomas Hurtt"
 created_at: "Open Form Games"
 role: "Musician, Lead Designer, 2d Artist, Animator, Developer"
 platform: "iOS, Android, PC, Classic Arcade upright cabinet."
+excerpt_separator: <!--more-->
 ---
-
 Xamalga is an addictive, action-packed arcade game that uses the power of music to drive gameplay. Play against the pulse-pounding tracks of Xamalga Prime or go head-to-head against your own library of music as you take on Xamalga in Open Form Foundation’s music-based arcade game. Struggle against Xamalga for points through each song, competing for top ranks and bragging rights.
-
+<!--more-->
 <div style="text-align:center">
 <iframe src="https://player.vimeo.com/video/232894913" width="600" height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

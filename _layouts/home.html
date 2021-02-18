@@ -9,39 +9,10 @@ layout: default
 
   {{ content }}
 
-  {%- if site.categories.highlight.size > 0 -%} 
-    <div class="highlights">
-      {%- for post in site.categories.highlight -%}
-      <a href="{{ post.url | relative_url }}"><img class="highlight" src="{{ post.image | escape}}" alt="{{ post.title | escape}}" title="{{ post.title | escape}}"/></a>
-      {%- endfor -%}
-    </div>
-    <br/>
-    <p class="rss-subscribe"><a href="/portfolio/">View More</a></p>
+  <h1 class="post-title">Interactive Anthology</h1>
+  {% include category_posts.html category="interactivefiction" show_excerpts=true show_dateline=true %}
 
-  <br/><br/>
-  <br/><br/>
-  {%- endif -%}
-
-
-  {%- if site.categories.blog.size > 0 -%}  
-    {%- if site.categories.highlight.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Technical Articles" }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- for post in site.categories.blog -%}
-      <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <a href="{{ post.url | relative_url }}"><aside class="dates">{{ post.date | date: date_format }}</aside></a>
-          <a href="{{ post.url | relative_url }}" class="link-text">{{ post.title | escape }}<h2></h2></a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-      <li>
-          <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
-      </li>
-    </ul>
-  {%- endif -%}
+  <h1 class="post-title">Some Thoughts</h1>
+  {% include category_posts.html category="blog" show_excerpts=true show_dateline=true %}
 
 </div>

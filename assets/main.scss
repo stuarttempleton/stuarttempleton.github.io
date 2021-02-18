@@ -6,123 +6,53 @@
 @import "minima";
 
 body {
-    color: #555;
+    /*background-image: url(/assets/images/downloads/citybg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
 }
 h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
     color:black;
 }
 
-a.download {
-    display:inline-block;
-    width:100px;
-    background: #2a7ae2;
-    color: white;
-    margin: 20px;
-    margin-bottom: 40px;
-    padding:10px;
-    text-align: center;
-}
-.site-header a:hover{
-    text-decoration: none;
-
-    border-bottom: 4px solid #2a7ae2;
-}
 .site-header {
-    border: 0px !important;
-    font-size: 0.8em;
-    padding:10px;
-    padding-right:40px;
-}
-.site-footer {
     border-top: 0px;
-}
-.wrapper {
-    max-width: calc(800px - (30px * 2));
-}
-
-.post-list {
-    font-size:1.1em;
-}
-.post-title {
-    font-size:36px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.post-meta {
-    font-size: 18px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.social-media-list {
-    text-align: center;
+    border-bottom: 0px;
 }
 .social-media-list li {
     display:inline;
-    border-top:0px;
-}
-.dates {
-    font-weight: 100;
-    float: right;
-    position: relative;
-    top: 1px;
-    color: #bbb;
-}
-.link-text {
-    font-weight: 700;
-}
-.post-list li {
-    border-top: 1px solid #eee;
-    padding-top: 30px;
-    padding-bottom:10px;
-    list-style-type: none;
-    margin-bottom: 0 !important;
 }
 .face {
-    padding-top:100px;
-    padding-bottom:50px;
+    max-width: calc(800px - (30px * 2));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.face-title {
+    font-weight: 100;
+    font-size: 3em;
+}
+.posts {
+    font-size: 1em;
+    padding-bottom: 60px;
+}
+.posts .item {
+    padding-bottom: 10px;
+}
+.posts .item .title {
     font-size: 1.5em;
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.8;
 }
-.face-face {
-    width:100px;
-    height:100px;
-    padding-bottom:10px;
-    border-radius2: 50%;
+.posts .item .date {
+    color:#777
 }
-.face-subtitle {
-    color: gray;
+.link-text:hover {
+    color:black;
 }
-.rss-subscribe {
-    float:right;
-    font-size: 0.8em;
+.link-text:visited {
+    color:black;
 }
-.highlights {
-    text-align: center;
-}
-img.highlight {
-    height: 130px;
-    width: 225px;
-    margin:5px;
-    border: 5px solid white;
-}
-a img:hover {
-    border:5px solid #2a7ae2;
-}
-
-.rot {
-    -webkit-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-}
-.rot90 {
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.rotrev {
-    -webkit-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
+.link-text {
+    color:black;
 }

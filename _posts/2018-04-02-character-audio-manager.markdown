@@ -2,11 +2,12 @@
 layout: post
 title:  "Using a CharacterAudioManager to Express Personality"
 date:   2018-04-02 11:17:49 -0700
-categories: blog Unity3d
+categories: blog
+excerpt_separator: <!--more-->
 ---
 
 One of the challenges you face as a game developer is creating new and unique ways to expose the narrative to the player. One of the most overlooked ways to do this is through ambient character audio. It's easy to remember the dialog audio, but we can actually add a lot by letting the player *hear* how the character experiences the world. What can you reveal about your character's personality by adding little quips as they try to open locked doors, walking into a smelly ally, or succeed (or fail miserably) at some task?
-
+<!--more-->
 You can show a lot! You can reveal how connected the character is with the world. Are they generally positive? Hopeful? Pessimistic? Annoyed by humorless robots? Enthralled by adorable animals? Are they self-defeatist? 
 
 What's more, though, is what can the character tell the player? Not to give up? That something is particularly interesting? That you need to get a new key-card? That cold areas are bad for your hydraulics actuators? That they're on the right track? That they made a good decision and have learned from some failure?

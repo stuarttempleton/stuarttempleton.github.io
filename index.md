@@ -3,5 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+image: /assets/images/face.jpg
 skip_name_in_title: true
 ---

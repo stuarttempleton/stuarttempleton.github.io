@@ -4,13 +4,14 @@ title:  "Basic Collision Detection in Lua"
 date:   2019-05-09 11:17:49 -0700
 remote_url: "https://git.openformgames.com/stu/luacollisiondetection"
 remote_url_action: "Download on Gitlab"
-categories: Lua blog
+categories: blog
+excerpt_separator: <!--more-->
 ---
 
 I spent some time evaluating using Lua in one of our games. I hadn't spent a large amount of time with the language, so I wanted to implement some rudimentary collision detection code to see how it worked. This might be helpful to you, but it was mostly just for me to get a feel for working in the language in a game development context. This is how I went about it in Lua.
 
 TLDR; I liked it! It can offer a lot of power to the end user if integrated well.
-
+<!--more-->
 ### Points and Distance
 
 I set up an easy way to work with points and track distance. In come cases, this can be helpful in cutting down on how many collision tests we perform, so I wanted to include it in the kit. This is in a separate file, points.lua.

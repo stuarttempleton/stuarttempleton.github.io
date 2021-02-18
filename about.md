@@ -1,11 +1,17 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
+I'm **Stuart**. I sometimes go by **Voltur5** on social media.
 
-I am a game designer with a focus on exploratory user experiences and innovative prototypes. I thrive at the intersection of art and technology, realizing unique and creative visions through technical tools like Unity3D and visual tools like Blender and Photoshop. 
+I've had a pretty cool journey, so far. I've been a professional musician, a radio personality, a nefarious hacker, a game developer, a game designer, a comic writer, a filmmaker, and an interactive fiction writer.
 
-I have 17 years of industry experience and have shipped over 30 titles in a variety of roles.I have a deep love for MMORPGs and games that are social and collaborative experiences, as well as a passion for exploration. I am a solid raid leader
+Most of my stuff probably isn't for you, and that's ok. Really! It's ok! I intentionally break rules and deviate from best practices to explore the media I work with, and sometimes that means that folks don't "get it." I tend to focus on exploration and creating a deep personal experience with *something*. 
+
+I like and appreciate connecting with people, so come say hi on social media! 
 
 I value revolution over evolution.
+
+
+![This is my face.](/assets/images/face.jpeg)

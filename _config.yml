@@ -28,12 +28,18 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - portfolio.md
+  - about.md
+  - thoughts.md
+
+feed:
+  categories:
+    - interactivefiction
+    - blog
 
 # SOCIAL LINKS
 # Use your social media usernames and such, here.
 
-#twitter_username: jekyllrb
+twitter_username: voltur5
 github_username:  stuarttempleton
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -45,7 +51,7 @@ linkedin_username: stuart-templeton-1b961133
 #googleplus_username: +jekyll
 rss: rss
 mastodon:
- - username: stuarttempleton
+ - username: voltur
    instance: elekk.xyz
 
 

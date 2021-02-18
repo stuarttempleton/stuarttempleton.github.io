@@ -1,0 +1,20 @@
+<div class="posts">
+    {%- for post in site.categories.[include.category] -%}
+    {%- assign postURL = post.url | relative_url-%}
+    {%- if post.alternative_url -%}
+        {%- assign postURL = post.alternative_url -%}
+    {%- endif -%}
+        <div class="item">
+            <div class="title">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <a href="{{ postURL }}" class="link-text">{{ post.title | escape }}</a>
+            </div>
+            {%- if include.show_dateline -%}
+                <div class="date">{{ post.date | date: date_format }}, {% include reading-time.html content=post.content %}</div>
+            {%- endif -%}
+            {%- if include.show_excerpts -%}
+                <div class="excerpt">{{ post.excerpt }}</div>
+            {%- endif -%}
+        </div>
+    {%- endfor -%}
+</div>

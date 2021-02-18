@@ -2,17 +2,17 @@
 layout: portfolio_item
 title:  "Vegas Prime Travel Guide"
 date:   2014-07-01 11:17:49 -0700
-categories: download
+categories: download game
 remote_url: https://openformgames.itch.io/data-burst-bonus-material-on-the-set
 image: /assets/images/downloads/VPR_TravelGuide.jpg
 contributors: "Stuart Templeton, Thomas Hurtt"
 created_at: "Open Form Games"
 role: "Creative Director, Lead Designer, Developer"
 platform: "Windows, macOS, Linux"
+excerpt_separator: <!--more-->
 ---
-
 Walk the streets of the Vegas Prime Central District with your own digital tour guide. Explore notable locations and learn about the history and lore of Vegas Prime and its role in unravelling the story of Vegas Prime Retrograde.
-
+<!--more-->
 And watch out, our guide system may have been hacked.
 
 ### Purpose and Function
