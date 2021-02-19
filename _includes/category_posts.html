@@ -17,4 +17,7 @@
             {%- endif -%}
         </div>
     {%- endfor -%}
+    {%- if include.show_feed -%}
+        <a href="{{ '/feed/' | append: include.category | append: '.xml' | relative_url }}">RSS Feed</a>
+    {%- endif -%}
 </div>
