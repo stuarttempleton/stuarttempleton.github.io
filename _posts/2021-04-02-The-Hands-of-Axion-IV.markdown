@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Hands of Axion IV"
-date:   2021-04-03 09:00:00 -0700
+date:   2021-04-02 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->
 ---
