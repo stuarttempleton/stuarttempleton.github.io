@@ -8,4 +8,5 @@ permalink: /latestmicrofiction/
 {{ post.content | strip_html }}
 {% endfor %}
 
--- Stuart Templeton (http://www.stuarttempleton.com)
+-- Stuart Templeton (https://www.stuarttempleton.com)
+
