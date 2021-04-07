@@ -28,8 +28,9 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - about.md
+  - microfiction.md
   - thoughts.md
+  - about.md
 
 feed:
   categories:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Micro Fiction
+title: Microfiction
 permalink: /microfiction/
 ---
 A series of un-related microfiction.

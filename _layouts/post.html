@@ -24,6 +24,34 @@ layout: default
     {{ content }}
   </div>
 
+  
+{% if page.categories %}
+  {% assign category = page.categories[0] %}
+  {% assign posts = site.categories[category] %}
+  {% for post in posts %}
+    {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+    {% endif %}
+  {% endfor %}
+  {% for post in posts %}
+    {% if post_index0 == forloop.index %}
+      {% assign next_post = post %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+      {% assign prev_post = post %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<br/><br/>
+{% if next_post %}
+<a class="right" href="{{ next_post.url }}"><b>Next:</b> {{ next_post.title }}</a>
+{% endif %}
+{% if prev_post %}
+<a class="left" href="{{ prev_post.url }}"><b>Previous:</b> {{ prev_post.title }}</a>
+{% endif %}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
