@@ -5,6 +5,8 @@ permalink: /latestmicrofiction/
 ---
 
 {% for post in site.categories["microfiction"] limit:1 %}
+{{ post.title | upcase }}
+
 {{ post.content | strip_html }}
 {% endfor %}
 
