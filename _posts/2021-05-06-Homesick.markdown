@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Homesick"
+date:   2021-05-06 00:01:00 -0700
+categories: microfiction
+excerpt_separator: <!--more-->
+---
+Homesick for a planet that died a millennia ago, COLONY-1 hurtles through the interstellar medium. Half-dead consoles line the bridge, status lights flashing intermittently. "Status: ," the read-out beams, "Stasis within tolerance. Human intervention not required. Reactor core operating at 90%"
