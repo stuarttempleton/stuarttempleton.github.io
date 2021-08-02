@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Amalis IV"
+date:   2021-08-27 09:00:00 -0700
+categories: microfiction
+excerpt_separator: <!--more-->
+---
+The island sat in the center of a sea of sulfur, a vast, barren rock, cresting the waves, the putrid smell of decay permeating the heavy air. Rusted piles of crumpled automatons littered the horizon, punctuating the charred remains of the ancient city's structure. 
+
+"We found it, " she noted into the journal unit. "Looking for the source now."
