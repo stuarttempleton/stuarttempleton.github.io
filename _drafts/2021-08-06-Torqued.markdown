@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Torqued"
+date:   2021-08-06 09:00:00 -0700
+categories: microfiction
+excerpt_separator: <!--more-->
+---
+Nanites seeped out of the engineering suit's structural cracks, crushed into an oily film by the pressure of the artificial gravity generator. "One more quarter turn," she thought, as the automated spanner torqued the last bolt on the repair overlay.
