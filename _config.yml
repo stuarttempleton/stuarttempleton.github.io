@@ -18,7 +18,8 @@ email: stuart@stuarttempleton.com
 description: >- # this means to ignore newlines until "baseurl:"
   Game Designer and Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.stuarttempleton.com" # the base hostname & protocol for your site, e.g. http://example.com
+site: "@voltur5"
 show_excerpts: false
 
 # Build settings
