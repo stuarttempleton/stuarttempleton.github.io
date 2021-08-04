@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fluttering Above"
+image: /assets/images/2021/08/04/Fluttering-Above.png
 date:   2021-08-04 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->
