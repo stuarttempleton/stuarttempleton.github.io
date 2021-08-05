@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Phase 2 Activity"
+image: /assets/images/2021/08/11/Phase-2-Activity.jpg
 date:   2021-08-11 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->

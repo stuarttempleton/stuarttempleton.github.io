@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "The Whispering Delve"
+image: /assets/images/2021/08/25/Whispering-Delve.jpg
 date:   2021-08-25 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->
