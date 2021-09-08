@@ -10,4 +10,4 @@ The savanna vegetation rippled in the warm eastern winds, dancing in the valley 
 
 "No," she said. "The pond. The reflection. Something is wrong, prepare to abort surface operations."
 
-Hungry, it sat. Still hungry.
+Patiently, it sat. Still hungry.
