@@ -57,7 +57,9 @@ mastodon:
  - username: voltur
    instance: hackers.town
 
-
+itchio:
+  - GameID: 1068270
+    Url: https://voltur.itch.io/starscan
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -9,16 +9,36 @@ layout: default
 
   {{ content }}
 
-  <h1 class="post-title">Interactive Anthology</h1>
-  <p>The anthology of interactive fiction short stories.</p>
-  {% include category_posts.html category="interactivefiction" show_excerpts=true%}
-
-  <h1 class="post-title">Microfiction</h1>
-  <p>A series of un-related microfiction.</p>
-  {% include category_posts.html category="microfiction" show_excerpts=true show_dateline=false%}
-
-  <h1 class="post-title">Some Thoughts</h1>
-  <p>A blog of sorts.</p>
-  {% include category_posts.html category="blog" show_excerpts=true show_dateline=true%}
-
+  <h1 class="post-title">Games and Recent Creations</h1>
+  <p class="post-meta">Video Games and Interactive Fiction for PC, macOS, Linux</p>
+  <br/>
+ 
+  {%- for game in site.itchio -%}
+    {%- if game.GameID and game.Url -%}
+    <iframe src="https://itch.io/embed/{{game.GameID}}?linkback=true&amp;border_width=0" width="550" height="165" frameborder="0"><a href="{{game.Url}}">Game by VOLTUR</a></iframe>
+    <br/><br/>
+    {%- endif -%}
+  {%- endfor -%}
+ 
+  <div>
+    <br/><br/>
+    <h1 class="post-title">Not-So-Recent Creations</h1>
+    <p class="post-meta">Video Games</p>
+    <p>Video games I've worked on in a variety of roles, ranging from <b>designer</b> to <b>developer</b> to <b>quality assurance</b>.
+    Most of these are old and may or may not be available, but each has taught me something about the art of creating games.</p>
+    <p>
+      <ul>
+        <li><b>Vegas Prime Retrograde</b> | Designer/Developer/Writer | 2014</li>
+        <li><b>E.V. and Jett</b> | Designer/Developer |2013</li>
+        <li><b>Xamalga 2</b> | Designer/Developer |2013</li>
+        <li><b>Xamalga</b> | Designer/Developer |2012</li>
+        <li><b>EA's Majestic</b> | AppSec QA | 2002</li>
+        <li><b>The Sims Online</b> | AppSec QA | 2002</li>
+        <li><b>Motor City Online</b> | AppSec QA | 2001</li>
+        <li><b>Multiplayer Battletech: 3025</b> | AppSec QA | 2001</li>
+        <li><b>Ultima Online</b> | QA | 2000</li>
+        <li><b>Multiplayer Battletech: Solaris</b> | QA | 2000</li>
+      </ul>
+    </p>
+  </div> 
 </div>
