@@ -15,6 +15,9 @@ tw-story {
   background:#dddddd;
   color:#333;
   background:white;
+  background:url(./images/chronologist.jpg);
+  background-position:center;
+  background-size: cover;
 }
 
 
@@ -28,18 +31,65 @@ tw-passage {
   font-weight:300;
   font-size: 15px;
   padding:40px;
-  border-left:1px solid #333;
+  background:rgba(255,255,255,0.9);
+  border-radius:5px;
+  box-shadow: 15px 15px 15px rgba(0,0,0,0.15);
+}
+
+tw-story[tags~="title"]{
+  background:url(./images/chronologist.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="desert"]{
+  background:url(./images/chronologist_desert.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="desert2"]{
+  background:url(./images/chronologist_desert2.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="english_workshop"]{
+  background:url(./images/chronologist_english_workshop.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="english_workshop2"]{
+  background:url(./images/chronologist_english_workshop2.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="city"]{
+  background:url(./images/chronologist_city.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="city2"]{
+  background:url(./images/chronologist_city2.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="celestial"]{
+  background:url(./images/chronologist_celestial.jpg);
+  background-position:center;
+  background-size: cover;
+}
+tw-story[tags~="failure"]{
+  background:url(./images/chronologist_failure.jpg);
+  background-position:center;
+  background-size: cover;
 }
 
 tw-story[tags~="title"] tw-passage{
-	border-left:0px;
+  border-left:0px;
 }
 
 
 tw-link { 
   font-family: 'Montserrat', sans-serif;
   color:black; 
-  background2:#ddd;
   font-weight:700; 
   padding:10px;
   margin-left:0px;
@@ -61,7 +111,6 @@ tw-link.visited:hover {
   background:lightblue;
 }
 tw-link:hover {
-  margin-left1:5px;
   color: black;
   background:lightblue;
 }
@@ -92,13 +141,13 @@ tw-sidebar tw-icon[title~=Undo] {
 }
 @media screen and (max-width: 1200px) {
   tw-passage {
-	padding:10px;
+	padding:20px;
 	border:0px;
   }
 }
 @media screen and (max-width: 960px) {
   tw-passage {
-	padding:10px;
+	padding:20px;
 	font-size: 13px;
 	border:0px;
   }
@@ -114,7 +163,7 @@ tw-sidebar tw-icon[title~=Undo] {
 }
 @media screen and (max-width: 720px) {
   tw-passage {
-	padding:10px;
+	padding:20px;
 	font-size: 12px;
 	border:0px;
   }
@@ -137,9 +186,10 @@ tw-sidebar tw-icon[title~=Undo] {
 
 
 
-</script><tw-passagedata pid="1" name="Title" tags="title" position="401,22" size="200,100">&lt;div class=&quot;main_title&quot;&gt;THE CHRONOLOGIST&lt;/div&gt;
+</script><tw-passagedata pid="1" name="Title" tags="title" position="402,22" size="200,100">
+&lt;div class=&quot;main_title&quot;&gt;THE CHRONOLOGIST&lt;/div&gt;
 
-&lt;div class=&quot;main_author&quot;&gt;by Stuart T.&lt;/div&gt;
+&lt;div class=&quot;main_author&quot;&gt;by VOLTUR&lt;/div&gt;
 
 
 
@@ -148,7 +198,7 @@ tw-sidebar tw-icon[title~=Undo] {
 
 
 (set: $failures to 0)
-&lt;center&gt;[[EVERY SEASON, THE SAME...-&gt;ChapterOnePerson1]]&lt;/center&gt;</tw-passagedata><tw-passagedata pid="2" name="ChapterOnePerson1" tags="" position="399,177" size="200,100">&lt;b&gt;EVERY SEASON, THE SAME.&lt;/b&gt; The cool smell of dust permeates the air and light pierces through the windows of the vaulted ceiling of the ANCIENT WORKSHOP. The gentle swaying of distant palm trees, stretched deep into the sky, dance in the windows, like the hands of a clock, slowly tick, tick ticking the day away. A decade&#39;s worth of carefully crafted sundials and time sticks, lay strewn about the room. The days grow long, waiting for the first visitor.
+&lt;center&gt;[[EVERY SEASON, THE SAME...-&gt;ChapterOnePerson1]]&lt;/center&gt;</tw-passagedata><tw-passagedata pid="2" name="ChapterOnePerson1" tags="desert" position="399,177" size="200,100">&lt;b&gt;EVERY SEASON, THE SAME.&lt;/b&gt; The cool smell of dust permeates the air and light pierces through the windows of the vaulted ceiling of the ANCIENT WORKSHOP. The gentle swaying of distant palm trees, stretched deep into the sky, dance in the windows, like the hands of a clock, slowly tick, tick ticking the day away. A decade&#39;s worth of carefully crafted sundials and time sticks, lay strewn about the room. The days grow long, waiting for the first visitor.
 
 The first workplace is an ancient space full of wonder and mystery.
 
@@ -165,10 +215,10 @@ The YOUNG MAN shuffles in, the first of the day. Timidly, he asks you to help hi
 You have failed to help the YOUNG MAN.
 
 (set: $failures to ($failures + 1))(replace:?s1o2)[](replace:?s1o1)[]
-[[EVERY SEASON, THE SAME...-&gt;SeasonOnePerson2]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="3" name="FAILURE" tags="" position="201,299" size="100,100">&lt;b&gt;ALMOST...&lt;/b&gt;
+[[EVERY SEASON, THE SAME...-&gt;SeasonOnePerson2]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="3" name="FAILURE" tags="failure" position="201,299" size="100,100">&lt;b&gt;ALMOST...&lt;/b&gt;
 You have failed too many times to repair the clocks that have come your way. Who did you help? Who did you misunderstand? Perhaps you should try again, another time.
 
-[[The time is now, to try again.-&gt;Title]]</tw-passagedata><tw-passagedata pid="4" name="SeasonOnePerson2" tags="" position="624,178" size="100,100">&lt;b&gt;THE OLD FARMER STORMS IN,&lt;/b&gt; before the sun has made its peak. With a stern expression and a gruff demeanor, he asks you to help him with his cracked time stick. He&#39;s afraid his son is will become too much like him, as he did his father, never on time for anything. Surely a wise CHRONOLOGIST such as youself can help him?
+[[The time is now, to try again.-&gt;Title]]</tw-passagedata><tw-passagedata pid="4" name="SeasonOnePerson2" tags="desert2" position="624,178" size="100,100">&lt;b&gt;THE OLD FARMER STORMS IN,&lt;/b&gt; before the sun has made its peak. With a stern expression and a gruff demeanor, he asks you to help him with his cracked time stick. He&#39;s afraid his son is will become too much like him, as he did his father, never on time for anything. Surely a wise CHRONOLOGIST such as youself can help him?
 
 (link: &quot;Give him the leather-bound time stick, embued with compassion.\r\n&quot;)[You give him the leather-bound time stick, embued with compassion. When he grows older, his time stick will become a walking stick and, when he passes, his children will take it on the adventures that he never got to have.
 (replace:?s1o2)[](replace:?s1o3)[]
@@ -181,7 +231,7 @@ You have failed to help the OLD FARMER.
 [[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson1]]]&lt;s1o2|\
 (link: &quot;Do nothing.\r\n&quot;)[You choose to do nothing to repair or replace his time stick. The OLD FARMER thanks you for your time and returns to the fields where his son waits, eager to try a new trade with his father. This time, he will. When the Great Famine hits, he will be ready.
 (replace:?s1o2)[](replace:?s1o1)[]
-[[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="5" name="SeasonTwoPerson1" tags="" position="524,299" size="200,100">&lt;b&gt;MUSTY BOOKS AND&lt;/b&gt; the odor of stale sweat hang in the air like the morning fog. Old, rotting wood lines the walls of the ENGLISH WORKSHOP, holding ornate tapestries, billowing gently in the frigid Northern breeze. The shelves are lined with ludicrous, whirring inventions, each with their own obtuse function. The stagnant day is punctuated only by the distant bellow of the steam boats, docking in the neighboring city.
+[[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="5" name="SeasonTwoPerson1" tags="english_workshop" position="524,299" size="200,100">&lt;b&gt;MUSTY BOOKS AND&lt;/b&gt; the odor of stale sweat hang in the air like the morning fog. Old, rotting wood lines the walls of the ENGLISH WORKSHOP, holding ornate tapestries, billowing gently in the frigid Northern breeze. The shelves are lined with ludicrous, whirring inventions, each with their own obtuse function. The stagnant day is punctuated only by the distant bellow of the steam boats, docking in the neighboring city.
 
 The SCIENTIST is your first visitor of the day. With great panache, she requests that you assist her in fixing her time piece. She is presenting her findings to the gentlemen of the city&#39;s university and should not be late. Surely, a CHRONOLOGIST such as yourself can help her?
 
@@ -196,7 +246,7 @@ You have failed to help the SCIENTIST.
 (if: $failures is 3)[[[You have failed to help too many people.-&gt;FAILURE]]](else:)[[[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson2]]]]&lt;s1o2|\
 (link: &quot;Do nothing.\r\n&quot;)[You choose to do nothing to repair or replace her time piece. You recognize her name from the Book of Knowledge. She will attempt to fix her own time piece, and will invent a new, more accurate mechanism instead. She will present her creation to the gentlemen in 2 years and you will make new clocks for new people.
 (replace:?s1o2)[](replace:?s1o1)[]
-[[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson2]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="6" name="SeasonTwoPerson2" tags="" position="400,300" size="100,100">&lt;b&gt;THE PRIEST IS YOUR NEXT VISITOR&lt;/b&gt;, a surly man of the cloth. He implores you to help fix the mechanical clock in his parish, as his flock is sleeping in too late for services. Surely a clever CHRONOLOGIST such as yourself can help them?
+[[EVERY SEASON, THE SAME...-&gt;SeasonTwoPerson2]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="6" name="SeasonTwoPerson2" tags="english_workshop2" position="400,300" size="100,100">&lt;b&gt;THE PRIEST IS YOUR NEXT VISITOR&lt;/b&gt;, a surly man of the cloth. He implores you to help fix the mechanical clock in his parish, as his flock is sleeping in too late for services. Surely a clever CHRONOLOGIST such as yourself can help them?
 
 (link: &quot;Give him the ruby encrusted clock that gleams like fire.\r\n&quot;)[You give him the ruby encrusted clock that gleams like fire. The parish re-ignites with a materalist passion, as they return in droves to see the shiny new clock. The PRIEST will see what has come of his parish and will sink into a relentless depression, pulling his beloved congretation with him into the abyss.
 
@@ -209,7 +259,7 @@ You have failed to help the PRIEST.
 [[EVERY SEASON, THE SAME...-&gt;SeasonThreePerson1]]]&lt;s1o2|\
 (link: &quot;Do nothing.\r\n&quot;)[You choose to do nothing to repair or replace his clock. He will reach out to his congregation and they will rebuild their clock together. They will learn unity.
 (replace:?s1o2)[](replace:?s1o1)[]
-[[EVERY SEASON, THE SAME...-&gt;SeasonThreePerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="7" name="SeasonThreePerson1" tags="" position="399,427" size="200,100">&lt;b&gt;THE METROPOLIS WORKSHOP WINDOWS&lt;/b&gt; frame the vibrant city skyline, like a neon ink wash. The palm trees that once grew, now dwarfed by genetically manicured fronds, like outstretched hands reaching into the neon light pollution. The walls of the workshop flash with individually curated advertisements, echoed down from a heavenly orbit. The shelves tower over the room, full of a millennia of dust covered time pieces. The stainless steel astronomical clock fills the ceiling, pouring diamond-like glints into the room, as it quietly traces the solar bodies on their traversal of a majestic night sky. Centuries of atomic clocks have left your doorway empty, a point of both pride and solitude. Such is the life of The CHRONOGRAPHER.
+[[EVERY SEASON, THE SAME...-&gt;SeasonThreePerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="7" name="SeasonThreePerson1" tags="city" position="399,427" size="200,100">&lt;b&gt;THE METROPOLIS WORKSHOP WINDOWS&lt;/b&gt; frame the vibrant city skyline, like a neon ink wash. The palm trees that once grew, now dwarfed by genetically manicured fronds, like outstretched hands reaching into the neon light pollution. The walls of the workshop flash with individually curated advertisements, echoed down from a heavenly orbit. The shelves tower over the room, full of a millennia of dust covered time pieces. The stainless steel astronomical clock fills the ceiling, pouring diamond-like glints into the room, as it quietly traces the solar bodies on their traversal of a majestic night sky. Centuries of atomic clocks have left your doorway empty, a point of both pride and solitude. Such is the life of The CHRONOGRAPHER.
 
 Your first visitor is the POLITICIAN. They seek to persuade you to help repair the worn cogs in their pocket watch. A gift from their father, and their father&#39;s father. Surely, a master CHRONOGRAPHER such as yourself can help them?
 
@@ -224,7 +274,7 @@ Your first visitor is the POLITICIAN. They seek to persuade you to help repair t
 You have failed to help the POLITICIAN.
 
 (set: $failures to ($failures + 1))(replace:?s1o2)[](replace:?s1o1)[]
-(if: $failures is 3)[[[You have failed to help too many people.-&gt;FAILURE]]](else:)[[[EVERY SEASON, THE SAME...-&gt;SeasonThreePerson2]]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="8" name="SeasonThreePerson2" tags="" position="624,426" size="100,100">&lt;b&gt;THE WELL DRESSED BUSINESSMAN&lt;/b&gt; walks in, eagerly tapping his watch. He politely asks you to take a look at his aging quartz wrist watch. &quot;It&#39;s a classic,&quot; he said in a hurry. Surely, a well known CHRONOGRAPHER such as yourself can help him?
+(if: $failures is 3)[[[You have failed to help too many people.-&gt;FAILURE]]](else:)[[[EVERY SEASON, THE SAME...-&gt;SeasonThreePerson2]]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="8" name="SeasonThreePerson2" tags="city2" position="624,426" size="100,100">&lt;b&gt;THE WELL DRESSED BUSINESSMAN&lt;/b&gt; walks in, eagerly tapping his watch. He politely asks you to take a look at his aging quartz wrist watch. &quot;It&#39;s a classic,&quot; he said in a hurry. Surely, a well known CHRONOGRAPHER such as yourself can help him?
 
 (link: &quot;Give him a new quartz watch with a glowing green LED that shines in the night.\r\n&quot;)[You give him a new quartz wrist watch with a glowing green LED that shines in the night. &quot;Thank you,&quot; he replies, daydreaming about the nights he will spend alone in his study, away from his family. 
 
@@ -237,7 +287,7 @@ You have failed to help the BUSINESSMAN.
 [[EVERY SEASON, THE SAME...-&gt;SeasonFourPerson1]]]&lt;s1o2|\
 (link: &quot;Do nothing.\r\n&quot;)[You choose to do nothing to repair or replace the BUSINESSMAN&#39;s wrist watch. He grumbles and walks away, knowing that he&#39;ll be late for his next appointments, but as the months pass, he will rekindle the love of his family.
 (replace:?s1o2)[](replace:?s1o1)[]
-[[EVERY SEASON, THE SAME...-&gt;SeasonFourPerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="9" name="SeasonFourPerson1" tags="" position="524,577" size="200,100">&lt;b&gt;THE GRAND CELESTIAL CLOCK&lt;/b&gt; hangs broken on the wall of the ANCIENT GALLERY. The walls are lined with the many faces of humankind, stretching into infinity. The hallway crackles with life, with a soft and soothing hum at each footstep as you approach the celestial clock. The gears and beams twitch sporadically, sticking, gently ticking against a broken facade.
+[[EVERY SEASON, THE SAME...-&gt;SeasonFourPerson1]]]&lt;s1o3|</tw-passagedata><tw-passagedata pid="9" name="SeasonFourPerson1" tags="celestial" position="524,577" size="200,100">&lt;b&gt;THE GRAND CELESTIAL CLOCK&lt;/b&gt; hangs broken on the wall of the ANCIENT GALLERY. The walls are lined with the many faces of humankind, stretching into infinity. The hallway crackles with life, with a soft and soothing hum at each footstep as you approach the celestial clock. The gears and beams twitch sporadically, sticking, gently ticking against a broken facade.
 
 Tick.
 
