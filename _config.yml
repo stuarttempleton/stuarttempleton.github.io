@@ -60,6 +60,8 @@ mastodon:
 itchio:
   - GameID: 1068270
     Url: https://voltur.itch.io/starscan
+  - GameID: 1407355
+    Url: https://voltur.itch.io/the-chronologist
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -182,7 +182,15 @@ tw-sidebar tw-icon[title~=Undo] {
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
+(function () {
+	var preload = ["./images/chronologist.jpg", "./images/chronologist_desert.jpg", "./images/chronologist_desert2.jpg","./images/chronologist_english_workshop.jpg", "./images/chronologist_english_workshop2.jpg", "./images/chronologist_city.jpg","./images/chronologist_city2.jpg", "./images/chronologist_celestial.jpg", "./images/chronologist_failure.jpg"];
 
+	window._ImageCache = preload.map(function (url) {
+		var image = document.createElement('img');
+		image.src = url;
+		return image;
+	});
+})();
 
 
 
@@ -190,7 +198,6 @@ tw-sidebar tw-icon[title~=Undo] {
 &lt;div class=&quot;main_title&quot;&gt;THE CHRONOLOGIST&lt;/div&gt;
 
 &lt;div class=&quot;main_author&quot;&gt;by VOLTUR&lt;/div&gt;
-
 
 
 
