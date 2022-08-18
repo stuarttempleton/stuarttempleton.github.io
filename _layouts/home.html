@@ -9,19 +9,35 @@ layout: default
 
   {{ content }}
 
+<div class="section">
+  <h1 class="post-title">I am Stuart Templeton</h1>
+  <p class="post-meta">Game Designer and Storyteller</p>
+  <br/>
+  <img src="/assets/images/face.jpeg" alt="This is my face." style="max-width:200px; float:left; padding-right:30px;">
+  Hello! I write and design games, microfiction, and interactive fiction.
+  <br/><br/>
+  I am currently creator and maintainer of <a href="https://voltur.itch.io/starscan">Starscan</a>, an experimental FOSS game that uses procedural generation to dynamically craft emergent narrative. 
+  I'm also finishing <a href="https://github.com/stuarttempleton/Enigmata">Enigmata VR</a>, a collaborative maze-based multiplayer puzzle game.
+  I've written several interactive fiction stories, including cyberpunk heist story <a href="https://voltur.itch.io/memory-lane">Memory Lane</a> and classic literature-inspired <a href="https://voltur.itch.io/the-chronologist">Chronologist</a>.
+  <br/><br/>
+  I enjoy using Narrative Design as a tool for explorating and creating a deep personal relationship with <i>something.</i>
+  <br/><br/>
+</div>
+
+<div class="section odd rot">
   <h1 class="post-title">Games and Recent Creations</h1>
   <p class="post-meta">Video Games and Interactive Fiction for PC, macOS, Linux</p>
   <br/>
- 
+
   {%- for game in site.itchio -%}
     {%- if game.GameID and game.Url -%}
-    <iframe src="https://itch.io/embed/{{game.GameID}}?border_width=0" width="550" height="165" frameborder="0"><a href="{{game.Url}}">Game by VOLTUR</a></iframe>
-    <br/><br/>
+    <iframe src="https://itch.io/embed/{{game.GameID}}?border_width=0" width="250" height="165" frameborder="0" style="margin:auto;"><a href="{{game.Url}}">Game by VOLTUR</a></iframe>
+    &nbsp;
     {%- endif -%}
   {%- endfor -%}
- 
-  <div>
-    <br/><br/>
+ </div>
+
+  <div class="section">
     <h1 class="post-title">Not-So-Recent Creations</h1>
     <p class="post-meta">Video Games</p>
     <p>Video games I've worked on in a variety of roles, ranging from <b>designer</b> to <b>developer</b> to <b>quality assurance</b>.

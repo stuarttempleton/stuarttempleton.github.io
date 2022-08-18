@@ -16,11 +16,7 @@
         </label>
 
         <div class="trigger">
-
-          {%- if page.skip_name_in_title -%}
-          {%- else -%}
-            <a class="page-link" href="{{ "/" | relative_url }}"><span class="arrow">←</span> {{ site.title | escape }}</a>
-          {%- endif -%}
+          <a class="page-link" href="/">About Me</a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}

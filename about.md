@@ -14,5 +14,4 @@ I like and appreciate connecting with people, so come say hi on social media!
 
 I value revolution over evolution.
 
-
 ![This is my face.](/assets/images/face.jpeg)

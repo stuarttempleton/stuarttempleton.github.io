@@ -5,20 +5,23 @@
 @import "minima";
 
 body {
-    /*background-image: url(/assets/images/downloads/citybg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
+
 }
+
+
+.section a{
+    font-weight: 700;
+    color:black;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
-    color:black;
 }
 
 .site-header {
     border-top: 0px;
     border-bottom: 0px;
+    background-color: white;
 }
 .social-media-list li {
     display:inline;
@@ -65,9 +68,35 @@ h1, h2, h3, h4, h5, h6 {
 .hide_mobile {
     display:unset;
 }
+.section{
+    margin-bottom:50px;
+    padding:20px;
+    background-color: white;
+    border-radius: 3px;
+}
+.odd{
+    background-color: #222;
+    color:white;
+    border-radius: 3px;
+}
+.rot{
+    transform: rotate(-2deg); 
+}
+.rotrev{
+    transform: rotate(2deg); 
+}
+.wrapper {
+    max-width: calc(1200px - (30px * 2)) ;
+}
 
 @media screen and (max-width: 800px) {
     .hide_mobile {
         display:none;
+    }
+    .rot{
+        transform: rotate(0deg); 
+    }
+    .rotrev{
+        transform: rotate(0deg); 
     }
 }
