@@ -1,0 +1,367 @@
+title: SigNucleus.Rank_0
+tags: 
+colorID: 0
+position: 64,79
+---
+<<setSpeaker TalkingHeads XENO>>
+Hey! It's me, Xeno. Looks like <b><color="orange">SigNucleus</color></b> is up to no good again. Time for a new contract? #line:0277ece
+-><b>[LORE]</b> SigNucleus? Again?! <<if not $ReadLore1>>  #line:0f809ef
+    Big surprise, I know. Your friendly biomechanical research megacorporation has been performing illegal research again. #line:0e29113
+    <<set $ReadLore1 to true>>
+    -> Typical megacorp garbage. #line:013ee18
+        [[SigNucleus.Rank_0]]
+-> That figures. What's on deck? #line:085b8fa
+    [[SigNucleus.Rank_0_1]]
+===
+title: SigNucleus.Rank_0_1
+tags: 
+colorID: 0
+position: 61,301
+---
+Our latest contract is a whistle blower from their <b><color="orange">R&D department</color></b>.#line:04d4ea8
+Turns out, they kept tabs on the <b><color="orange">Biowarfare Initiative</color></b> until they were unexpectedly laid off. #line:08139f0
+-> <b>[LORE]</b> Biowarfare Initiative? <<if not $ReadLore2>>  #line:0ba74b0
+    I know. It's as horrific as it sounds. Especially in the hands of a group like SigNucleus. #line:0a95d23
+    <<set $ReadLore2 to true>>
+    -> Yikes! #line:0beaa52
+        [[SigNucleus.Rank_0_2]]
+    -> So what do we have to do? #line:0ec9dc3
+        [[SigNucleus.Rank_0_2]]
+-> Interesting... #line:01461c3
+    [[SigNucleus.Rank_0_2]]
+===
+title: SigNucleus.Rank_0_2
+tags: 
+colorID: 0
+position: 69,518
+---
+All we have to do is tap into their <b><color="orange">Pacifica Data Store</color></b> and pull the file nodes.#line:091d44b
+Here's the address and a scrubbed Neural VPN. Connect when ready... #line:099ce47
+-> <b>[LORE]</b> Pacifica Data Store? <<if not $ReadLore3>> #line:094120c
+    Yeah. That's their newest data store. It's supposedly a high security system, but word is, they aren't fully operational.#line:095aace
+    We should be able to take advantage of that if we move fast. #line:029ab41
+    <<set $ReadLore3 to true>>
+    -> Let's move on it fast, then. #line:0ffdf9e
+        [[SigNucleus.Rank_0_2]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec1>> #line:00dc007
+    This is a simple hack and grab. You'll have to access the <b><color="orange">database</color></b>. #line:073dacf
+    <<set $ReadOpsec1 to true>>
+    -> Got it. #line:0bbc827
+        [[SigNucleus.Rank_0_2]]
+-> Initiating connection now... #line:06bb594
+    <b>REMEMBER:</b> You have to collect <b><color="orange">[Left Click]</color></b> every data node for this to work, but IDS has been planted. If you try to collect them, we fail.
+    Mark them <b><color="orange">[Right Click]</color></b> instead.
+    -> Got it. Let's start!
+===
+title: SigNucleus.Rank_1
+tags: 
+colorID: 0
+position: 278,79
+---
+<<setSpeaker TalkingHeads XENO>>
+Looks like the second we dropped the biowarfare leak, the DarkNodes lit up with people looking for the whistleblower.#line:0b733e7
+But you know what I think? Something here ain't right.  #line:0129c56
+-> <b>[LORE]</b> DarkNodes? <<if not $ReadLore4>>  #line:051cee0
+    Yeah, you can find anything on them, these days. I know it used to just be designer drugs from the biohackers and sleezy smut,#line:0fc5bad
+    but now it's the only haven for whistleblowers and dissidents looking for anonymity.  #line:083f7ca
+    <<set $ReadLore4 to true>>
+    -> That make sense. #line:0e1e54b
+        [[SigNucleus.Rank_1]]
+-> Naturally... #line:0e7121b
+    [[SigNucleus.Rank_1_5]]
+===
+title: SigNucleus.Rank_1_5
+tags: 
+colorID: 0
+position: 276,300
+---
+Let's see if we can track down who was trying to bully the whistleblower.#line:06b35e0
+Here's the last address and a fresh N-VPN. Careful. This one has a firewall that ain't no joke! #line:084932a
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec2>>  #line:005636c
+    This is an easy two part job. You'll have to breach the <b><color="orange">firewall</color></b>, then access the <b><color="orange">database</color></b> like before. #line:0a12622
+    <<set $ReadOpsec2 to true>>
+    -> Got it. #line:086e870
+        [[SigNucleus.Rank_1_5]]
+-> Initiating connection now... #line:085105d
+===
+title: SigNucleus.Rank_2
+tags: 
+colorID: 0
+position: 486,82
+---
+<<setSpeaker TalkingHeads XENO>>
+It was a 3rd party hacker that broke into their system. I managed to trace them back to a Core Node in <b><color="orange">Zone 7</color></b> before the trail went dark.  #line:035c689
+-> <b>[LORE]</b> Zone 7? Whose turf is that? <<if not $ReadLore5>>  #line:0ecb9dd
+    Zone 7 is run by <b><color="orange">Typhoid Mary</color></b>, a hacker collective that splintered off after the fall of <b><color="orange">The Resistance</color></b> during the Persona Wars.#line:0657764
+    All of the modern <b><color="orange">Cognitive Imprint Viruses</color></b> come from Zone 7. #line:07df8de
+    <<set $ReadLore5 to true>>
+    -> Typhoid Mary was part of The Resistance? #line:0cf6739
+        Yeah, she fought with the Resistance during the Persona Wars against the mega-corporations that were creating AI Cognitive Imprints from neural data mines and granting them personhood.#line:027b6a5
+        The Persona Wars were rough. Mary was the best there was at manipulating imprints and ended the war by creating a virus that swept through and destroyed every known imprint in Sol. #line:014242c
+        -> I see how she got her name. #line:08fc125
+            [[SigNucleus.Rank_2]]
+        -> I'll be careful, then. #line:0e78b5e
+            [[SigNucleus.Rank_2]]
+    -> I'll be careful, then. #line:0025c8d
+        [[SigNucleus.Rank_2]]
+-> Then, let's get started. #line:02ab725
+    [[SigNucleus.Rank_2_5]]
+===
+title: SigNucleus.Rank_2_5
+tags: 
+colorID: 0
+position: 488,302
+---
+What I'm most curious about is, who hired them? Who has something to gain? I have my suspicions, but if we're going to take this to NNCP, we're going to need proof.#line:02edb60
+I've set up your N-VPN with a Zone 7 exit node. Be careful. Zone 7 is dangerous. #line:0413856
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec3>>  #line:098c57d
+    This is an easy two part job. You'll have to breach the <b><color="orange">firewall</color></b> like before,#line:0abd2d9
+    then root <b><color="orange">Central Node 7</color></b>. #line:0f19ce4
+    <<set $ReadOpsec3 to true>>
+    -> Got it. #line:03146fd
+        [[SigNucleus.Rank_2_5]]
+-> Initiating connection now... #line:056767d
+===
+title: SigNucleus.Rank_3
+tags: 
+colorID: 0
+position: 697,93
+---
+<<setSpeaker TalkingHeads XENO>>
+Looks like it was someone at SigNucleus itself trying to bully the whistleblower. Who is <b><color="orange">Florida J.</color></b>? A disgruntled coworker?#line:0b02cb8
+Corporate retaliation for the leak? Wouldn't be the first time.  #line:0b66128
+-> <b>[LORE]</b> Florida J.? Sounds familiar. <<if not $ReadLore6>>  #line:0f5e6c2
+    It's probably a pseudonym. Maybe if we dive into the SigNucleus data cluster we can tie this name to someone in meatspace. Send the NNCP for a courtesy visit. #line:05dec49
+    <<set $ReadLore6 to true>>
+    -> Good call. #line:0271cc9
+        [[SigNucleus.Rank_3]]
+    -> Sounds shaky, but it's all we have to go on. #line:0e08e40
+        [[SigNucleus.Rank_3]]
+-> That's not surprising. #line:038255f
+    [[SigNucleus.Rank_3_5]]
+===
+title: SigNucleus.Rank_3_5
+tags: 
+colorID: 0
+position: 699,305
+---
+We're going to need to dig deeper. Reach into the SigNucleus corporate data cluster and see if anything stands out.#line:06f9ac6
+Emails, memos, and chat usually have a trail, if you know where to look. Watch out. The <b><color="orange">NOC</color></b> has some pretty heavy guns. #line:00a3525
+-> <b>[LORE]</b> Heavy guns? <<if not $ReadLore7>>  #line:0b5465f
+    SigNucleus is known for its active intrusion countermeasures. It's not just another layer to breach. This one <i>thinks</i>. #line:0fa49ea
+    <<set $ReadLore7 to true>>
+    -> I'll stay alert, then! #line:0fa2d7d
+        [[SigNucleus.Rank_3_5]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec4>>  #line:0dcbb4b
+    This is a three part job. You'll have to breach the <b><color="orange">Firewall</color></b>,#line:0b1138f
+    find a way to access their <b><color="orange">Network Operation Center</color></b>,#line:0c75033
+    then dig around in the <b><color="orange">SigNucleus Mail Relay</color></b>. #line:04a844a
+    <<set $ReadOpsec4 to true>>
+    -> Got it. #line:0bae4c6
+        [[SigNucleus.Rank_3_5]]
+-> No sweat. Initiating connection now... #line:002464d
+===
+title: SigNucleus.Rank_4
+tags: 
+colorID: 0
+position: 907,305
+---
+<<setSpeaker TalkingHeads XENO>>
+It looks like SigNucleus has way more going on than we thought! That leak was just the tip of the iceberg.#line:0e2ae3b
+The emails are pretty scrubbed, but my KovTek De-Fuzzer pulled something called <b><color="orange">Project Tangerine</color></b>. What a weird name. #line:00b70e5
+-> <b>[LORE]</b> Project Tangerine? <<if not $ReadLore8>>  #line:0981305
+    That's what it pulled. Your guess is as good as mine, here. The DarkNodes are dead silent about it, which is never a good thing. Must be something big, probably a new tech pulled offworld.#line:05299b7
+    If that's true, I bet their R&D Network has some background on it. #line:08e963e
+    <<set $ReadLore8 to true>>
+    -> Sounds big. Let's get started. #line:0e9b7e4
+        [[SigNucleus.Rank_4]]
+    -> Sounds like a challenge. Bring it on! #line:003b230
+        [[SigNucleus.Rank_4]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec5>>  #line:01d8f7c
+    This is a another three part job. You'll have to breach the <b><color="orange">firewall</color></b>,#line:06b2117
+    get a foothold inside their <b><color="orange">DMZ</color></b>,#line:0a8d561
+    then access the <b><color="orange">R&D Lab Database</color></b>.#line:0293b78
+    <<set $ReadOpsec5 to true>>
+    -> Got it. #line:07f4bfe
+        [[SigNucleus.Rank_4]]
+-> Let's start digging. Initiating connection now... #line:03cdc47
+===
+title: SigNucleus.Rank_5
+tags: 
+colorID: 0
+position: 1118,305
+---
+<<setSpeaker TalkingHeads XENO>>
+There's another name on these files. <b><color="orange">Poe</color></b>. Looks like some kind of code-name. They're deep into <b><color="orange">Project Tangerine</color></b>, some type of operational authority.#line:07239bc
+Where are they operating out of? Our best bet is to hack into the <b><color="orange">Identity Server Authority</color></b> to trace their <b><color="orange">ID Chain</color></b>. #line:0714239
+-> <b>[LORE]</b> What do we know about Poe? <<if not $ReadLore9>>  #line:0ae76b4
+    Dr. Amala Poe. Trace-back links this person loosely to <b><color="orange">The Falcon Projects</color></b>.#line:096f3ad
+    We still have no idea who they are, if they're even real. #line:0d87996
+    <<set $ReadLore9 to true>>
+    -> <b>[LORE]</b> The Falcon Projects? <<if not $ReadLore10>>  #line:00450e6
+        These projects are notorious among conspiracy theorists all over the DarkNodes. Depending on who you ask, more than a few high level leaks have suggested a real cover-up of the deep space projects.#line:066cf6e
+        If Poe was involve in these projects, it's no wonder SigNucleus wants to bury all of this.  #line:0e872eb
+        <<set $ReadLore10 to true>>
+        -> I'm done wasting time. Let's get started. #line:0a96920
+            [[SigNucleus.Rank_5]]
+        -> This is big. I'm ready... #line:0626f9e
+            [[SigNucleus.Rank_5]]
+    -> Interesting... #line:0842a35
+        [[SigNucleus.Rank_5]]
+-> <b>[LORE]</b> More about Project Tangerine <<if not $ReadLore11>>  #line:03c7bd2
+    Most of these files are still encrypted, but this seems to reference a large off-world construction project that's being kept off the books.#line:09b6db7
+    SigNucleus is known for building large scale armature, so it makes sense. But what are they hiding and why? #line:0f12b58
+    <<set $ReadLore11 to true>>
+    -> I need to dig deeper... #line:0c4364d
+        [[SigNucleus.Rank_5]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec6>>  #line:025c802
+    This is a multipart job. You'll have to breach the <b><color="orange">Central ID Authority Firewall</color></b>,#line:08d3909
+    then systematically access <b><color="orange">Regional Identity Servers</color></b> until you trace the full ID Chain. #line:053318c
+    <<set $ReadOpsec6 to true>>
+    -> Got it. #line:0909d72
+        [[SigNucleus.Rank_5]]
+-> Initiating connection now... #line:0a70095
+===
+title: SigNucleus.Rank_6
+tags: 
+colorID: 0
+position: 1330,69
+---
+<<setSpeaker TalkingHeads XENO>>
+The last hope in that ID Chain was traced down.. er.. up to the <b><color="orange">Lunar Orbital Relay</color></b>. What?! Are they off planet?!#line:0c62bc3
+We haven't had a good extraplanetary job in years! Looks like this one lands us on the far side of the moon.#line:0a0c2eb
+I guess one of the benefits of tidal locking is a cozy place to build a sinister, hidden mega-corporate facility. #line:0e284b7
+-> <b>[LORE]</b> Lunar Orbital Relay? <<if not $ReadLore12>>  #line:0daeb41
+    [[SigNucleus.Rank_6_5]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec7>>  #line:02e6824
+    This is a four part job. You'll have to breach the <b><color="orange">Firewall</color></b>,#line:0d5bd1f
+    hijack the <b><color="orange">Ground Uplink</color></b>,#line:0587fda
+    root <b><color="orange">COMSAT 7</color></b>,#line:08393e4
+    and then find a way into the <b><color="orange">Lunar Orbital Relay</color></b> itself. #line:0357d7d
+    <<set $ReadOpsec7 to true>>
+    -> Got it. #line:0d0fe7b
+        [[SigNucleus.Rank_6]]
+-> Initiating connection now... #line:0c2dedf
+===
+title: SigNucleus.Rank_6_5
+tags: 
+colorID: 0
+position: 1333,303
+---
+The LOR isn't actually as sinister as I make it sound. At least not in theory.#line:071619a
+SigNucleus builds deep-space megastructures and uses the Lunar Orbital Relay as a both a <b><color="orange">Communication Relay</color></b> to autonomous construction crews as well as a physical <b><color="orange">Jump Point</color></b>.#line:0322c89
+Basically, Earth won't interfere with it and it won't interfere with earth when it activates the <b><color="orange">Jump Matrix</color></b>.#line:0b00265
+<<set $ReadLore12 to true>>
+-> <b>[LORE]</b> Communications relay? Isn't that all subspace, now? <<if not $ReadLore13>>  #line:0db45f0
+    Relays are used to create and maintain <b><color="orange">Entanglement Structures</color></b> that are read by communication terminals at stations and ships throughout the system.#line:06c10cf
+    Without these relays, our communication would be so slow, we'd never see it in our lifetime. They release a lot of radiation though, so they tend to be built off-world.#line:0512bfd
+    <<set $ReadLore13 to true>>
+    -> Got it. #line:0982b4f
+        [[SigNucleus.Rank_6_5]]
+-> <b>[LORE]</b> Lunar Orbital Jump Points? <<if not $ReadLore14>>  #line:02eb277
+    <b><color="orange">Lunar Orbital</color></b> is probably the most popular jump point, outside of the <b><color="orange">Plunkett Spaceport</color></b> on the <b><color="orange">Vegas Prime</color></b>! Most people know that it's the staging area for Earth-originating traffic,#line:05022d2
+    but what most people don't know is that it's also the central processing node for the AI that manages the megastructure construction drones.#line:0791781
+    It's a pretty big deal, sitting up there in the sky.#line:0f1f4e9
+    <<set $ReadLore14 to true>>
+    -> That's a lot of processing for one, hidden facility. #line:0c7c2ef
+        [[SigNucleus.Rank_6_5]]
+-> Ok. #line:0321138
+    [[SigNucleus.Rank_6]]
+===
+title: SigNucleus.Rank_7
+tags: 
+colorID: 0
+position: 1546,304
+---
+<<setSpeaker TalkingHeads XENO>>
+Dr. Poe is the victim of some kind of <b><color="orange">Corporate Kidnapping</color></b> and is being held off world.#line:00d0fef
+We're going to need a lot more proof than just this ID Chain before we can go to the <b><color="orange">NNCP</color></b>.  #line:0633117
+-> <b>[LORE]</b> Corporate Kidnapping? <<if not $ReadLore15>>   #line:030502e
+    SigNucleus kidnapped their own scientist to prevent the secrets they know from getting out, I guess? It wouldn't be the first time.#line:083e2a8
+    Corporate espionage is common with the mega-corporations. SigNucleus has very few oversight organizations that can actually reign them in. #line:0263760
+    <<set $ReadLore15 to true>>
+    -> That's shady. #line:0b043c7
+        [[SigNucleus.Rank_7]]
+-> <b>[LORE]</b> The NNCP? <<if not $ReadLore16>>   #line:0120d98
+    The NNCP is probably the only oversight group that can actually reign in the mega-corporations.#line:0d0a3e6
+    Unfortunately, they're often beholden to them and need a lot of hard proof to do anything.#line:0ec03e5
+    They'd jump at the chance to push back on SigNucleus-- We just need to give them the ammunition.  #line:08086fd
+    <<set $ReadLore16 to true>>
+    -> Let's get to work, then. #line:020a943
+        [[SigNucleus.Rank_7]]
+-> <b>[OPSEC]</b> What does our OPSEC scan show? <<if not $ReadOpsec8>>  #line:00d4396
+    This is an eight part job. You'll have to breach the <b><color="orange">Lunar Planetary Firewall</color></b>,#line:02b2ab4
+    access the <b><color="orange">Lunar Orbital Data Store</color></b>,#line:064a081
+    breach the <b><color="orange">Outer Firewall</color></b>,#line:0c63ae0
+    root the <b><color="orange">Security Operations Network</color></b>,#line:058804c
+    breach the triple layer <b><color="orange">X3 Oscillating Firewall</color></b>,#line:0d5e69d
+    then finally access the <b><color="orange">Surveillance Data Backup</color></b> to get the security feed that matches our timecodes and ID Chains.#line:0d615ba
+    <<set $ReadOpsec8 to true>>
+    -> Got it. #line:0991d09
+        [[SigNucleus.Rank_7]]
+-> Initiating connection now... #line:0d539bb
+===
+title: SigNucleus.Rank_8
+tags: 
+colorID: 0
+position: 1759,72
+---
+<<setSpeaker TalkingHeads XENO>>
+We have the ID Chain, the timecodes, emails, database backups... everything. Something isn't right. That doesn't look like a prison.#line:01fae52 
+Biowarfare? Megastructures? Cerberus Orbital? It doesn't add up. #line:0adb319
+-> <b>[LORE]</b> If Dr. Poe wasn't kidnapped, then... were they involved? <<if not $ReadLore17>>  #line:0a73dce
+    They'd have to be. They had such broad knowledge of every project. Even the Falcon projects. A better question is: Are they the mastermind? #line:055ee98
+    <<set $ReadLore17 to true>>
+    -> It certainly looks that way. #line:01857c0
+        [[SigNucleus.Rank_8]]
+-> What would anyone want with a biowarfare armature of that scale? #line:0e01513
+    That's a good question. This is only good for destroying large quantities of biomass. What do you think it is? #line:00ae261
+    -> I think they want to wipe out the Resistance. #line:042498b
+        What would that leave behind in its wake? That would destroy an entire Civilian Dome.  #line:0bd2aa9
+        <<set $SelectedResistance to true>>
+        -> We need to blow the lid off of this. Let's finish what we started. #line:02e2000
+            [[SigNucleus.Rank_8_5]]
+    -> I think they want to clear a planet or platform. #line:03c6ea0
+        But what planet? Mars? Vegas Prime? One of the deep space platforms gathering resources? Hostile biomass on an alien planet? #line:08d9cb2
+        <<set $SelectedPlanet to true>>
+        -> We need to blow the lid off of this. Let's finish what we started. #line:03d1636
+            [[SigNucleus.Rank_8_5]]
+    -> I think they want to wipe out... *gulp* us. #line:076c428
+        It's come to this... Can you hear us? We sound crazy. #line:0da1a0a
+        <<set $SelectedKillUs to true>>
+        -> ... #line:09ea889
+            Can you hear us, right now? We sound crazy.  #line:0d8fffc
+            -> We need to blow the lid off of this. Let's finish what we started.  #line:0cddb52
+                [[SigNucleus.Rank_8_5]]
+-> Let's get to work. #line:01c45bf
+    [[SigNucleus.Rank_8_5]]
+===
+title: SigNucleus.Rank_8_5
+tags: 
+colorID: 0
+position: 1758,308
+---
+If we're going to do this, we have to do this by the books, and we're going to have to do this anonymously. If this goes south, we can't let it lead back to us. #line:0fe17f5
+-> <b>[OPSEC]</b> What is our OPSEC this time? <<if not $ReadOpsec9>>  #line:0b0d146
+    This is an nine part job. You'll have to breach the quad layer <b><color="orange">4X Oscillating Firewall</color></b>,#line:0d49d31
+    access the <b><color="orange">NNCP Case Database Backup</color></b> to create an active investigation,#line:05d5c83
+    breach the <b><color="orange">NNCP Operations Firewall</color></b>,#line:08539b5
+    root the <b><color="orange">NNCP Operations Controller</color></b> and drop Typhoid Mary to force a full restore from backups,#line:0005a95
+    hit the <b><color="orange">NNCP Mail Relay</color></b> to ask for a follow-up from the investigation team,#line:0855db4
+    then finally access the <b><color="orange">NNCP Data Backup</color></b> to wipe our footprint from the system.#line:0b1a58b
+    <<set $ReadOpsec9 to true>>
+    -> Got it. #line:08f5921
+        [[SigNucleus.Rank_8_5]]
+-> Initiating connection now...  #line:0c87988
+===
+title: SigNucleus.Final
+tags: 
+colorID: 0
+position: 1531,520
+---
+<<setSpeaker TalkingHeads XENO>>
+This is the ending dialog. Congratulations.
+-> Dialog option. <<if $SelectedResistance >>
+    -> Got it. 
+-> Final ending choice.
+===
