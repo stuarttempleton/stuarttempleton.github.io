@@ -11,7 +11,7 @@ Here are some writing samples that cover NPC barks in a variety of cases. I've s
 ## No Carrier
 <a href="/portfolio/images/nocarrier/no_carrier_bark-web.jpg"><img src="/portfolio/images/nocarrier/no_carrier_bark-web.jpg" alt="No Carrier" class="inline_floating_images"/></a>
 
-NO CARRIER is the hacker antagonist in Vegas Prime Retrograde. She hacks into the player's communication link and taunts her periodically during hacking challenges, based on player progress. Her outward personality is reminiscent of classic anime villains and her bark interactions are inspired by the dog on Duck Hunt. I produced the audio, working with voice actor Beth Cartwright. Here are some highlights:
+NO CARRIER is the hacker antagonist in Vegas Prime Retrograde. She hacks into the player's communication link and taunts her periodically during hacking challenges, based on player progress. Her outward personality is reminiscent of classic anime villains and her bark interactions are inspired by the dog in Duck Hunt. I produced the audio, working with voice actor Beth Cartwright. Here are some highlights:
 
 <ul class="portfolio_item">
     <li>[Taunt Failure] "You're going to try to take MY bundle? NO CARRIER? On PrimeNet?! Hahaha! It's your funeral."<br/>
@@ -49,7 +49,7 @@ NO CARRIER is the hacker antagonist in Vegas Prime Retrograde. She hacks into th
 <br/>
 
 ## Clara
-CLARA is the player character in Vegas Prime Retrograde. I wrote ambient voice lines to convey personality and environmental information to the player, revealing how connected the character is with the world she is exploring. These barks appear as ambient audio only during game play. I produced the audio, working with voice actor Shereena Sylvester. Here are some key samples:
+CLARA is the player character in Vegas Prime Retrograde. I wrote ambient voice lines to convey personality and environmental information to the player, revealing how connected the character is with the world she is exploring. These barks appear only as ambient audio during game play. I produced the audio, working with voice actor Shereena Sylvester. Here are some key samples:
 
 <ul class="portfolio_item">
     <li>[Discovers Lounge Area] "A lounge! Swanky stasis bay!"<br/>
