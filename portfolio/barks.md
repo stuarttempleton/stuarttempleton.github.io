@@ -8,7 +8,7 @@ Here are some writing samples that cover NPC barks in a variety of cases. I've s
 <br/><br/>
 
 
-## No Carrier
+## NO CARRIER
 <a href="/portfolio/images/nocarrier/no_carrier_bark-web.jpg"><img src="/portfolio/images/nocarrier/no_carrier_bark-web.jpg" alt="No Carrier" class="inline_floating_images"/></a>
 
 NO CARRIER is the hacker antagonist in Vegas Prime Retrograde. She hacks into the player's communication link and taunts her periodically during hacking challenges, based on player progress. Her outward personality is reminiscent of classic anime villains and her bark interactions are inspired by the dog in Duck Hunt. I produced the audio, working with voice actor Beth Cartwright. Here are some highlights:

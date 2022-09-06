@@ -16,6 +16,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
+    clear: both;
 }
 
 .site-header {
@@ -95,6 +96,7 @@ audio {
 }
 .inline_floating_images {
     max-width: 400px;
+    max-height: 250px;
     border-radius: 3px;
     margin:0px 0px 10px 10px;
     float: right;
@@ -127,6 +129,7 @@ ul.portfolio_item li{
     }
     .inline_floating_images {
         max-width: 100%;
+        max-height: 100%;
         margin:0px;
         float: none;
     }
