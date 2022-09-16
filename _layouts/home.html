@@ -12,23 +12,19 @@ layout: default
 <div class="section">
   <h1 class="post-title">I am Stuart Templeton</h1>
   <p class="post-meta">Game Designer and Storyteller</p>
-  <br/>
-  <img src="/assets/images/face.jpeg" alt="This is my face." class="face">
-  Hello! I write and design games, microfiction, and interactive fiction.
-  <br/><br/>
-  I am currently creator and maintainer of <a href="https://voltur.itch.io/starscan">Starscan</a>, an experimental FOSS game that uses procedural generation to dynamically craft emergent narrative. 
-  I'm also finishing <a href="https://github.com/stuarttempleton/Enigmata">Enigmata VR</a>, a collaborative maze-based multiplayer puzzle game.
-  I've written several interactive fiction stories, including cyberpunk heist story <a href="https://voltur.itch.io/memory-lane">Memory Lane</a> and classic literature-inspired <a href="https://voltur.itch.io/the-chronologist">Chronologist</a>.
-  <br/><br/>
-  I enjoy crafting and exploring experiences that offer a deeply personal relationship with <i>something.</i>
-  <br/><br/>
+  <p><img src="/assets/images/face.jpeg" alt="This is my face." class="face"></p>
+  <p>Hello! I write and design games, microfiction, and interactive fiction.</p>
+  <p>I am currently creator and maintainer of <a class="section-link" href="https://voltur.itch.io/starscan">Starscan</a>, an experimental FOSS game that uses procedural generation to dynamically craft emergent narrative. 
+  I'm also finishing <a class="section-link" href="https://github.com/stuarttempleton/Enigmata">Enigmata VR</a>, a collaborative maze-based multiplayer puzzle game.
+  I've written several interactive fiction stories, including cyberpunk heist story <a class="section-link" href="https://voltur.itch.io/memory-lane">Memory Lane</a> and classic literature-inspired <a class="section-link" href="https://voltur.itch.io/the-chronologist">Chronologist</a>.</p>
+  <p>I enjoy crafting and exploring experiences that offer a deeply personal relationship with <i>something.</i></p>
 </div>
 
 <div class="section odd rot">
   <h1 class="post-title">Games and Recent Creations</h1>
-  <p class="post-meta">Video Games and Interactive Fiction for PC, macOS, Linux</p>
-  <br/>
-
+  <!--<p class="post-meta">Video Games and Interactive Fiction for PC, macOS, Linux</p>-->
+  Here is a collection of currently available video games and interactive fiction pieces for PC, macOS, and Linux. Please feel free to explore and enjoy.
+  <br/><br/>
   {%- for game in site.itchio -%}
     {%- if game.GameID and game.Url -%}
     <iframe src="https://itch.io/embed/{{game.GameID}}?border_width=0" width="250" height="165" frameborder="0" style="margin:auto;"><a href="{{game.Url}}">Game by VOLTUR</a></iframe>
@@ -38,21 +34,21 @@ layout: default
  </div>
 
  <div class="section">
-  <h1 class="post-title">Narrative Design Samples</h1>
+  <h1 class="post-title">Narrative Design & Writing Samples</h1>
   <p class="post-meta">A curated selection of writing samples and design strategy deep-dives.</p>
   <br/>
   
   <ul>
-    <li><a href="/portfolio/dialog">Dialog</a> | Selected dialog from Vegas Prime Retrograde and HVCKGNOSYS.</li>
-    <li><a href="/portfolio/characters">Character Designs</a> | Selected character designs from Vegas Prime Retrograde.</li>
-    <li><a href="/portfolio/barks">NPC Barks and Quips</a> | Selected NPC barks from Vegas Prime Retrograde.</li>
+    <li><a class="section-link" href="/portfolio/dialog">Dialog</a> | Selected dialog from Vegas Prime Retrograde and HVCKGNOSYS.</li>
+    <li><a class="section-link" href="/portfolio/characters">Character Designs</a> | Selected character designs from Vegas Prime Retrograde.</li>
+    <li><a class="section-link" href="/portfolio/barks">NPC Barks and Quips</a> | Selected NPC barks from Vegas Prime Retrograde.</li>
     <!--<li><a href="/portfolio/quests">Quests & Quest Chains</a> | Selected quests and missions from Vegas Prime Retrograde and E.V. and Jett</li>-->
   </ul>
 </div>
 
   <div class="section odd rotrev">
     <h1 class="post-title">Not-So-Recent Creations</h1>
-    <p class="post-meta">Video games from the archives.</p>
+    <!--<p class="post-meta">Video games from the archives.</p>-->
     <p>Video games I've worked on in a variety of roles, ranging from <b>designer</b> to <b>developer</b> to <b>quality assurance</b>.
     Most of these are old and may or may not be available, but each has taught me something about the art of creating games.</p>
     <p>

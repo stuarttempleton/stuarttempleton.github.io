@@ -1,17 +1,37 @@
 ---
 ---
 
-
 @import "minima";
+
+
+$oddblock-bg1: rgb(54, 113, 180);
+$oddblock-txt: rgb(255, 255, 255);
+
+
+$oddblock-bg1:#03130E;
+$oddblock-txt1: #EC348F;
+
+
+$oddblock-bg1: rgb(34, 34, 34);
+$oddblock-bg2: #724a7e;
+$oddblock-bg2: rgb(141, 24, 196);
+$oddblock-bg2: #485d86;
+$oddblock-bg2: #654886;
+
+$oddblock-txt: rgb(185, 185, 185);
+
+$oddblock-subtext:darken($oddblock-txt, 20%);
+$oddblock-link-text:lighten($oddblock-bg2, 10%);
+$oddblock-h1: lighten($oddblock-bg1, 10%);
 
 body {
 
 }
 
 
-.section a{
+.section-link,.section-link:visited,.section-link:hover{
     font-weight: 700;
-    color:black;
+    color:$oddblock-h1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,15 +69,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 .posts .item .date {
-    color:#777
+    color:rgb(0, 0, 0)
 }
-.link-text:hover {
-    color:black;
-}
-.link-text:visited {
-    color:black;
-}
-.link-text {
+
+.link-text,.link-text:visited,.link-text:hover {
     color:black;
 }
 .right {
@@ -76,9 +91,25 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
 }
 .odd{
-    background-color: #222;
-    color:white;
+    background-color: $oddblock-bg1;
+
+
+    background: $oddblock-bg1;
+    background: -moz-linear-gradient(-45deg,  $oddblock-bg1 0%, $oddblock-bg2 100%);
+    background: -webkit-linear-gradient(-45deg,  $oddblock-bg1 0%,$oddblock-bg2 100%);
+    background: linear-gradient(135deg,  $oddblock-bg1 0%,$oddblock-bg2 100%);
+
+
+    color: $oddblock-txt;
     border-radius: 3px;
+}
+.odd .post-meta {
+    color: $oddblock-subtext;
+}
+.odd h1,b{
+    /*background-color: $oddblock-h1;
+    padding:20px;*/
+    color:lighten($oddblock-txt, 20%);
 }
 .rot{
     transform: rotate(-2deg); 
@@ -110,7 +141,7 @@ audio {
 ul.portfolio_item {
     clear2: both;
 }
-ul.portfolio_item li{
+ul li{
     list-style: none;
     padding:5px;
 }
@@ -126,6 +157,8 @@ ul.portfolio_item li{
     }
     .face {
         max-width: 100%;
+        margin:0px;
+        float: none;
     }
     .inline_floating_images {
         max-width: 100%;
