@@ -145,6 +145,18 @@ ul li{
     list-style: none;
     padding:5px;
 }
+div.title{
+    clear:both;
+}
+.microfiction_images {
+    text-align: center;
+    width: 100%;
+}
+.microfiction_images a img{
+    max-width: 45%;
+    padding:5px;
+    border-radius: 5px;
+}
 @media screen and (max-width: 800px) {
     .hide_mobile {
         display:none;

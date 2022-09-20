@@ -1,0 +1,18 @@
+<div class="posts">
+    <div class="microfiction_images">
+    {%- for post in site.categories.[include.category] limit:6 -%}
+        {%- assign postURL = post.url | relative_url-%}
+
+        {%- if post.alternative_url -%}
+            {%- assign postURL = post.alternative_url -%}
+        {%- endif -%}
+        {%- if post.image -%}
+            <a href="{{ postURL }}"><img src="{{ post.image }}" alt="{{ post.title | escape }}"/></a>
+        {%- endif -%}
+
+    {%- endfor -%}
+    </div>
+    {%- if include.show_feed -%}
+        <a href="{{ '/feed/' | append: include.category | append: '.xml' | relative_url }}">RSS Feed</a>
+    {%- endif -%}
+</div>

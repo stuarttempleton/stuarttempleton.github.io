@@ -4,4 +4,4 @@ title: "Microfiction"
 permalink: /microfiction/
 ---
 A series of un-related microfiction.
-{% include category_posts.html category="microfiction" show_excerpts=true show_dateline=false %}
+{% include category_posts.html category="microfiction" show_excerpts=true show_dateline=false show_images=false%}
