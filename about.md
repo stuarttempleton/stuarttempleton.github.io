@@ -4,7 +4,7 @@ title: About Me
 image: /assets/images/face.jpg
 permalink: /about/
 ---
-I'm **Stuart**. I sometimes go by **Voltur** or **Voltur5** on social media.
+I'm **Stuart**. I sometimes go by **Voltur** on social media.
 
 I've had a pretty cool journey, so far. I've been a professional musician, a radio personality, a nefarious hacker, a game developer, a game designer, a comic writer, a filmmaker, and an interactive fiction writer.
 
