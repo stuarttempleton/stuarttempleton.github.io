@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "A Cloud of Light"
-image: /assets/images/2021/08/20/Cloud-Of-Light.jpg
 date:   2021-08-20 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->

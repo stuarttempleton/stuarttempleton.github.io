@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Octavius Trap"
-image: /assets/images/2021/09/08/Octavius-Trap.jpg
 date:   2021-09-08 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->

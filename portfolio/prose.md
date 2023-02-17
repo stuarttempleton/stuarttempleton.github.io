@@ -46,10 +46,20 @@ The sidewalk stretches out before you, your destination lit with a flickering bl
 
 <br/><br/>
 <div class="section odd rot">
-    <h1 class="post-title">Microfiction</h1>
-    <p>Here is a sample of microfiction from my ongoing sci-fi anthology. These pieces are stand-alone, unique prose in short form, loosely connected by the world they inhabit and the genre of writing, ranging from horror to science fiction.</p>
+    <h1 class="post-title">Bedtime Stories from New Cyberia</h1>
+    <p>Here is a sample of microfiction from my ongoing sci-fi anthology, Bedtime Stories from New Cyberia. These pieces are stand-alone, unique prose in short form, loosely connected by the world they inhabit and the genre of writing, ranging from horror to science fiction.</p>
     <p>The main challenge for this project is conveying meaningful experience in an extremely limited space: a handful of sentences at most, and often fewer than one hundred words. In addition to that challenge, my goal is to embrace a sense of duality. In most cases, these are intended to demonstrate the ebb and flow two opposing concepts or provide a strong, unexpected reveal.</p>
     <p>These pieces demonstrate a variety of strategies and techniques for meeting those challenges, while presenting a rich reader experience.</p>
 </div>
 
-{% include category_posts_images.html category="microfiction"%}
+<div class="posts">
+    <div class="microfiction_images">
+    <a href="/assets/images/microfiction/Old-Barrows.jpg"><img src="/assets/images/microfiction/Old-Barrows.jpg" alt="The Old Barrows" /></a>
+    <a href="/assets/images/microfiction/Octavius-Trap.jpg"><img src="/assets/images/microfiction/Octavius-Trap.jpg" alt="The Octavius Trap" /></a>
+    <a href="/assets/images/microfiction/Seat-of-Teles.jpg"><img src="/assets/images/microfiction/Seat-of-Teles.jpg" alt="The Seat of Teles" /></a>
+    <a href="/assets/images/microfiction/Amalga-X.jpg"><img src="/assets/images/microfiction/Amalga-X.jpg" alt="Amalga-X" /></a>
+    <a href="/assets/images/microfiction/Amalis-IV.jpg"><img src="/assets/images/microfiction/Amalis-IV.jpg" alt="Amalis IV" /></a>
+    <a href="/assets/images/microfiction/Whispering-Delve.jpg"><img src="/assets/images/microfiction/Whispering-Delve.jpg" alt="The Whispering Delve" /></a>
+    </div>
+</div>
+

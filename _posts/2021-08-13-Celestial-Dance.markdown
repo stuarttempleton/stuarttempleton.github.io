@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Celestial Dance"
-image: /assets/images/2021/08/13/Celestial-Dance.jpg
 date:   2021-08-13 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->

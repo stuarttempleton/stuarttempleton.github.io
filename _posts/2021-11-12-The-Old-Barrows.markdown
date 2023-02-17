@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Old Barrows"
-image: /assets/images/2021/11/12/Old-Barrows.jpg
 date:   2021-11-12 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->

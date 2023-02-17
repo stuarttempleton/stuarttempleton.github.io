@@ -5,4 +5,5 @@
 layout: home
 image: /assets/images/face.jpg
 skip_name_in_title: true
+title: Stuart Templeton
 ---

@@ -3,8 +3,12 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  
+  {%- if page.skip_name_in_title -%}
+  {%- else -%}
+    {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
   {%- endif -%}
 
   {{ content }}

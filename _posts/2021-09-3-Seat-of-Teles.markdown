@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "The Seat of Teles"
-image: /assets/images/2021/09/03/Seat-of-Teles.jpg
 date:   2021-09-03 09:00:00 -0700
 categories: microfiction
 excerpt_separator: <!--more-->
